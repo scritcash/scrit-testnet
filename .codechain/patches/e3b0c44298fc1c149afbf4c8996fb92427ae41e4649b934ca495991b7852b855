@@ -1,0 +1,58 @@
+codechain patchfile version 2
+treehash e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
++ f f89bc5d199542c8c60d838dc4babd1b808e9c7381d25a425d6dbc7499bb72861 .bitcoin.png
+ascii85 7
+M,6r;%14!\!!!!.8Ou6I!!!$J!!!$J!<W<%!7Apf=o\O&##Ium70!;fs8W+qfq7(#!!!(B;GL0js2_V*
+`rH)>$#iF<ErZ1J&c_n>&cpG:If'0G!@LH,5u_NKmF=iB_CuB#:u20"Ar%b@q+t2!:mdQ*o3e8K'@\Z;
+;,L1fs/FB*4i)C"03=o,`TW'+j(d)HR&NaaltY$?2*Fg_$JL)3;3-T7a*FjXD2RNVnmOCj<>t@tY`,MP
+NOm]]G8GTA[ArNFXmQj@c9;Rnbd<TfVhj%@XKRJ1'6R4.LLX0s$8lQq\dlBsZOY196n'u.]3i)R'lha#
+..73&*OVp(DLE&Z>7DR[/&%G>'eb3!>*Kp?dseAbe58)n3n-3*=2!XA*ACq&;+IJ1k?@OSH84]X'Od?9
+!:-RPQ0Q=nfsYrL8,:.&#<Ok]e<A=HFNDL%UK[JTA+*m<'r!='foktCN7sMB[+MCR7N/\6Y9PMH.dI&`
+$NicOXfCJ"JcGcN!(fUS7'8jaJc
++ f 2709eb7b83939a52c5a7c7a5d92fc6b83be0d34a690ceef42890a4b0c01d6971 .secdep/scrit.secpkg
+utf8file 6
+{
+  "Name": "scrit",
+  "Head": "5b13602a88fd3723122e4b9f00b89b9cc491286a9373877f5e718c63f320ce00",
+  "DNS": "scrit.secpkg.net"
+}
+
++ f dbe139f8c91872f6e5708641f06f0270b59a609ae2eb94deced22fd5344e08dd Makefile
+utf8file 16
+prefix ?= /usr/local
+exec_prefix ?= $(prefix)
+sharedir ?= $(exec_prefix)/share
+
+.PHONY: all install uninstall
+
+all:
+	mkdir -p $(sharedir)/scrit
+
+install:
+	mkdir -p $(sharedir)/scrit
+	cp -f testnet.json $(sharedir)/scrit
+
+uninstall:
+	rm -f $(sharedir)/scrit/testnet.json
+
++ f e24173aa0fa92b68f1cf41275c9e2a52edfb24794bccd97112f02d2ffc3da8ec README.md
+utf8file 14
+Scrit testnet
+-------------
+
+The [Scrit](https://github.com/scritcash/scrit) testnet configuration.
+
+### Support
+
+Scrit is 100% free and unencumbered software released into the public domain.
+To support our work please donate Bitcoin to:
+
+`36hMdVaZWUHbsnXfPsJtXe7ZRcU6jciAFt`
+
+![Bitcoin donation address](.bitcoin.png)
+
++ f 7978faee272e75ca2cca7418fb3e5b4d81ae40241188b09e5726e2256d11ef66 testnet.json
+utf8file 2
+# placeholder file testnet configuration
+
+treehash 3b5f4be54f3230369a529c77e61a9937ae2a4a375460218cce29c051cc62f6cf
