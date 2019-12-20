@@ -9,7 +9,7 @@ all:
 
 install:
 	mkdir -p $(sharedir)/scrit
-	cp -f testnet.json $(sharedir)/scrit
+	cp -rf testnet $(sharedir)/scrit
 
 uninstall:
-	rm -f $(sharedir)/scrit/testnet.json
+	rm -rf $(sharedir)/scrit/testnet
