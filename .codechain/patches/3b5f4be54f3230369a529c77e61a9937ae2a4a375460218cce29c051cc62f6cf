@@ -1,0 +1,28 @@
+codechain patchfile version 2
+treehash 3b5f4be54f3230369a529c77e61a9937ae2a4a375460218cce29c051cc62f6cf
++ f 4e368effe72439d8efe4512fdc952aca69ac5719b8a3695f39c0e122744d4fbf .secpkg
+utf8file 6
+{
+  "Name": "scrit-testnet",
+  "Head": "c65ddb1c66dea95a5ed04b3ec0c7dc3542145e9aefaf6d76c353b76dd7bf964b",
+  "DNS": "scrit-testnet.secpkg.net"
+}
+
+- f dbe139f8c91872f6e5708641f06f0270b59a609ae2eb94deced22fd5344e08dd Makefile
++ f 5c5cc9e4d913c2651492c52dc6a9532d9f25748b5decefb20e5c1a4359eddf01 Makefile
+dmppatch 9
+@@ -179,46 +179,42 @@
+ rit%0A
+-%09cp -f testnet.json $(sharedir)/scrit%0A
++%09cp -rf testnet $(sharedir)/scrit%0A
+ %0Auni
+@@ -225,42 +225,38 @@
+ ll:%0A
+-%09rm -f $(sharedir)/scrit/testnet.json%0A
++%09rm -rf $(sharedir)/scrit/testnet%0A
+- f 7978faee272e75ca2cca7418fb3e5b4d81ae40241188b09e5726e2256d11ef66 testnet.json
++ f 7978faee272e75ca2cca7418fb3e5b4d81ae40241188b09e5726e2256d11ef66 testnet/network.json
+utf8file 2
+# placeholder file testnet configuration
+
+treehash 9c873f1ba1e4c940f9953ab21bcefe255c38e3b7f640f46d7578ca0c00dc956d
