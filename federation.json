@@ -1,0 +1,54 @@
+{
+  "NetworkEpochs": [
+    {
+      "DBCTypesAdded": [
+        {
+          "Amount": 100000000,
+          "Currency": "EUR"
+        },
+        {
+          "Amount": 200000000,
+          "Currency": "EUR"
+        },
+        {
+          "Amount": 500000000,
+          "Currency": "EUR"
+        }
+      ],
+      "DBCTypesRemoved": null,
+      "MintsAdded": [
+        {
+          "PubKey": "vVqGX7eEyH5DNxO/UHm2k8iJAvf+NNv2g1UbZnTnu44=",
+          "SigAlgo": "ed25519"
+        },
+        {
+          "PubKey": "boVnUGMNKkI1Pe72m8Kf/9KljL4DBvsOGxbr1wi9flo=",
+          "SigAlgo": "ed25519"
+        },
+        {
+          "PubKey": "er0Phn1PjBzbz3gBUEbFQUIbexZxufELZyzCyfT4A5U=",
+          "SigAlgo": "ed25519"
+        }
+      ],
+      "MintsRemoved": null,
+      "MintsReplaced": null,
+      "NumberOfMintsN": 3,
+      "QuorumM": 2,
+      "SignEnd": "2006-02-02T15:04:05Z",
+      "SignStart": "2006-01-02T15:04:05Z",
+      "ValidateEnd": "2006-03-02T15:04:05Z"
+    },
+    {
+      "DBCTypesAdded": null,
+      "DBCTypesRemoved": null,
+      "MintsAdded": null,
+      "MintsRemoved": null,
+      "MintsReplaced": null,
+      "NumberOfMintsN": 3,
+      "QuorumM": 2,
+      "SignEnd": "2006-03-02T15:04:05Z",
+      "SignStart": "2006-02-02T15:04:05Z",
+      "ValidateEnd": "2006-04-02T15:04:05Z"
+    }
+  ]
+}

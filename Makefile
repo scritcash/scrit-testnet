@@ -7,8 +7,8 @@ sharedir ?= $(exec_prefix)/share
 all:
 
 install:
-	mkdir -p $(sharedir)/scrit
-	cp -rf testnet $(sharedir)/scrit
+	mkdir -p $(sharedir)/scrit/testnet
+	cp -f federation.json $(sharedir)/scrit/testnet
 
 uninstall:
 	rm -rf $(sharedir)/scrit/testnet
