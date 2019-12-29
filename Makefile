@@ -5,7 +5,6 @@ sharedir ?= $(exec_prefix)/share
 .PHONY: all install uninstall
 
 all:
-	mkdir -p $(sharedir)/scrit
 
 install:
 	mkdir -p $(sharedir)/scrit
