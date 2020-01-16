@@ -9,6 +9,7 @@ all:
 install:
 	mkdir -p $(sharedir)/scrit/testnet
 	cp -f federation.json $(sharedir)/scrit/testnet
+	cp -rf mints $(sharedir)/scrit/testnet
 
 uninstall:
 	rm -rf $(sharedir)/scrit/testnet
